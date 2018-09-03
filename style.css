@@ -32,10 +32,10 @@ ul li.edit .noedit {
   display: inline-flex;
 }
 
-.img {
-
+img {
+  height: 50px;
 }
 
-.content {
+content {
 
 }
