@@ -51,7 +51,7 @@ function onHtmlLoad() {
         type: 'DELETE',
         url: 'https://ancient-caverns-16784.herokuapp.com/movies/' + $(this).attr('data-id'),
         headers: {
-          'X-Auth-Token': 'tnScgo0fzPm7H5d3qc6DZ24Dg-QEev4n'
+          'X-Auth-Token': 'FnzgS9oaH3arHw8Nsug7_Hxz--3cEruY'
         },
         success: function() {
           $li.fadeOut(300, function() {
