@@ -33,7 +33,7 @@ function onHtmlLoad() {
     $.ajax({
       type: 'POST',
       headers: {
-        'X-Auth-Token': 'tnScgo0fzPm7H5d3qc6DZ24Dg-QEev4n'
+        'X-Auth-Token': 'FnzgS9oaH3arHw8Nsug7_Hxz--3cEruY'
       },
       url: 'https://ancient-caverns-16784.herokuapp.com/movies/',
       data: movie,
@@ -87,7 +87,7 @@ function onHtmlLoad() {
       $.ajax({
         type: 'PUT',
         headers: {
-          'X-Auth-Token': 'tnScgo0fzPm7H5d3qc6DZ24Dg-QEev4n'
+          'X-Auth-Token': 'FnzgS9oaH3arHw8Nsug7_Hxz--3cEruY'
         },
         url: 'https://ancient-caverns-16784.herokuapp.com/movies/' + $li.attr('data-id'),
         data: movie,
